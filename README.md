@@ -9,7 +9,7 @@
 
 ## Description
 This is a React app built with Vite. It contains a profile component styled with inline CSS.
-to demonstrate component-based architecture and JSX syntax.
+to demonstrate component-based architecture and JSX syntax. Includes two imaginary characters, bio with circular portrait, images, and toggle dark/light modes.
 
 ## What I Learned
 - How to use JSX
