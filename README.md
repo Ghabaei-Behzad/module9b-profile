@@ -16,14 +16,14 @@ to demonstrate component-based architecture and JSX syntax.
 - How to style with inline CSS
 - How to create and render functional components
 - The Vite Setup: Initializing a lightweight React environment.
-- "JSX usage and exposure" Structuring layouts within JavaScript functions.  Noticing the different syntax.
-- "Inline Styling:" Using JavaScript objects to define CSS properties.
-- "Props:" (short for properties) Passing data from parent (App) to child (UserProfile) components.
+- JSX usage and exposure. Structuring layouts within JavaScript functions.  Noticing the different syntax.
+- Inline Styling: Using JavaScript objects to define CSS properties.
+- Props: (short for properties) Passing data from parent (App) to child (UserProfile) components.
 
 ## Challenges
 Briefly describe any issues you encountered and how you resolved them. 
-Finding an image for this imaginary person was sort of challenging, but I searched and found an older portrait of a Jane Doe.  The link works well, and much better than an emoji that I had originally selected. 
-The first problem I encountered was that, the path to the file was challenging. I discovered that the Node.js command shell was not flexible about that. The git shell gave me an error message that, github was not found. I needed to connect to the website which was difficult at first. It was a  "Git Push Error:" I encountered:  `remote: Repository not found` error, when trying to push my code, with "git push -u origin main" 
+Finding an image for this imaginary person was sort of challenging, I got two emojis. The emojis represent Alex Doe and Jane Smith. Two imaginary people. 
+The first problem I encountered was that, the path to the file was challenging. I discovered that the Node.js command shell was not flexible. The git shell gave me an error message that, github was not found. I needed to connect to the website which was difficult at first. It was a  "Git Push Error:" I encountered:  `remote: Repository not found` error, when trying to push my code, with "git push -u origin main" 
 Here is what the command prompt said: 
 fatal: 'origin' does not appear to be a git repository
 fatal: Could not read from remote repository.
@@ -37,7 +37,8 @@ git push -u origin main
 
 ## Screenshot
 Include a screenshot of your component.
-<img width="1366" height="685" alt="JaneDoe" src="https://github.com/user-attachments/assets/ab45888e-ea02-4586-bacc-f8ce22256bff" />
+<img width="1366" height="730" alt="JaneandAlex" src="https://github.com/user-attachments/assets/a58c6c2e-7ab0-4c57-9551-5fcf0c6af42a" />
+
 
 
 
