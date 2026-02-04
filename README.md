@@ -22,12 +22,18 @@ to demonstrate component-based architecture and JSX syntax.
 
 ## Challenges
 Briefly describe any issues you encountered and how you resolved them. 
-First, the path to the file was challenging and discovering that the Node.js command shell was not flexible about that. The git shell gave me an error github was not found. I needed to connect to the website which was difficult at first.
-"Git Push Error:" I encountered:  `remote: Repository not found` error, when trying to push my code, with "git push -u origin main" 
-Here is what it said: 
+Finding an image for this imaginary person was sort of challenging, but I searched and found an older portrait of a Jane Doe.  The link works well, and much better than an emoji that I had originally selected. 
+The first problem I encountered was that, the path to the file was challenging. I discovered that the Node.js command shell was not flexible about that. The git shell gave me an error message that, github was not found. I needed to connect to the website which was difficult at first. It was a  "Git Push Error:" I encountered:  `remote: Repository not found` error, when trying to push my code, with "git push -u origin main" 
+Here is what the command prompt said: 
 fatal: 'origin' does not appear to be a git repository
 fatal: Could not read from remote repository.
-I had to research this and I learned that I needed to manually create the repository on the [GitHub website](https://github.com) first. I also used `git remote set-url origin <URL>` to ensure there were no typos in the link.  GitHub uses a Personal Access Token (PAT) for HTTPS not a password.
+I had to research this and I learned that I needed to manually create the repository on the [GitHub website](https://github.com) first. I also used `git remote set-url origin <URL>` to ensure there were no typos in the link.  GitHub uses a Personal Access Token (PAT) for HTTPS not a password. Here are some commands I used to get through and successfully transfer my files. 
+// there was a problem so i used:
+git remote -v
+git remote remove origin
+git remote add origin 
+https://github.com
+git push -u origin main
 
 ## Screenshot
 Include a screenshot of your component.
