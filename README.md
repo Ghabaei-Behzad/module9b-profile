@@ -39,6 +39,13 @@ git push -u origin main
 Include a screenshot of your component.
 <img width="1366" height="730" alt="JaneandAlex" src="https://github.com/user-attachments/assets/a58c6c2e-7ab0-4c57-9551-5fcf0c6af42a" />
 
+added toggle dark mode, changed to this:
+
+<img width="1366" height="725" alt="togglemode" src="https://github.com/user-attachments/assets/650d8055-e7a2-4239-b6a8-5c563f858e09" />
+
+
+
+
 
 
 
