@@ -1,3 +1,42 @@
+// Behzad Ghabaei
+// CS 81 - JavaScript 
+// Assignment 9B
+// UserProfile.jsx
+// Instructor Seno
+// 2/3/2026
+
+# Module 9B - Custom Profile Component
+
+## Description
+This is a React app built with Vite. It contains a profile component styled with inline CSS.
+to demonstrate component-based architecture and JSX syntax.
+
+## What I Learned
+- How to use JSX
+- How to style with inline CSS
+- How to create and render functional components
+- The Vite Setup: Initializing a lightweight React environment.
+- "JSX usage and exposure" Structuring layouts within JavaScript functions.  Noticing the different syntax.
+- "Inline Styling:" Using JavaScript objects to define CSS properties.
+- "Props:" (short for properties) Passing data from parent (App) to child (UserProfile) components.
+
+## Challenges
+Briefly describe any issues you encountered and how you resolved them. 
+First, the path to the file was challenging and discovering that the Node.js command shell was not flexible about that. The git shell gave me an error github was not found. I needed to connect to the website which was difficult at first.
+"Git Push Error:" I encountered:  `remote: Repository not found` error, when trying to push my code, with "git push -u origin main" 
+Here is what it said: 
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+I had to research this and I learned that I needed to manually create the repository on the [GitHub website](https://github.com) first. I also used `git remote set-url origin <URL>` to ensure there were no typos in the link.  GitHub uses a Personal Access Token (PAT) for HTTPS not a password.
+
+## Screenshot
+Include a screenshot of your component.
+<img width="1366" height="685" alt="JaneDoe" src="https://github.com/user-attachments/assets/ab45888e-ea02-4586-bacc-f8ce22256bff" />
+
+
+
+
+-----(ignore everything below this line)-----------------------------------------------------------------------
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
