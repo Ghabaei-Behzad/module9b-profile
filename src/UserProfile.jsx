@@ -71,7 +71,8 @@ import React, { useState } from 'react';
   };
 
     /*  
-    * This is where the props are located. Wrapped in <div>. The style will be 
+    * This is where the props are located. Wrapped in <div>. We see there are three 
+    * statements: props.image, props.name and props.bio from the parent compnent. The style will be 
     * cardStyle. Next <img> tag has an OR statement if true displays an emoji.
     * objectFit: 'cover' maintains a fit for a round portrait.
     * functionality is returned. Next <h2> is displayed with an OR statement. "Alex Doe"
