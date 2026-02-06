@@ -15,6 +15,15 @@ import React, { useState } from 'react';
 *
 * The properties (props) are declased here in a destructured array.
 * for useState(false) we know they are for [initializing, and a setter].
+* another wat to write this 
+* is: function UserProfile(props) {
+       const ...
+      return (
+      <div style={cardStyle}>
+      </div>
+        );
+       }
+
 */
 
   const UserProfile = (props) => {
