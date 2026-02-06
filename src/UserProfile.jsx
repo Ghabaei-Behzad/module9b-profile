@@ -13,7 +13,7 @@ import React, { useState } from 'react';
 
 /* 
 *
-* The properties (pros) are declased here in a destructured array.
+* The properties (props) are declased here in a destructured array.
 * for useState(false) we know they are for [initializing, and a setter].
 */
 
