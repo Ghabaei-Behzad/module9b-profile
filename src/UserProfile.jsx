@@ -78,7 +78,7 @@ import React, { useState } from 'react';
     * functionality is returned. Next <h2> is displayed with an OR statement. "Alex Doe"
     * is the second imaginary character. Next <p> is underneith, the short bio description.
     * Finally the <button> toggles light or dark mode in the function setIsDarkMode().
-    * It uses a ternary operator. If isDrakMode() is true then display 'light mode'
+    * It uses a ternary operator. If isDarkMode() is true then display 'light mode'
     */
   return (
     <div style={cardStyle}>
