@@ -22,7 +22,7 @@ import React, { useState } from 'react';
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   // 2. Define style variables based on the current mode
-  // all of these are done with a ternary operations. hex #333333 is dark
+  // all of these are done with ternary operations. hex #333333 is dark
   // and hex #ffffff is white.
   const theme = {
     backgroundColor: isDarkMode ? '#2c3e50' : '#ffffff',
