@@ -72,11 +72,11 @@ import React, { useState } from 'react';
 
     /*  
     * This is where the props are located. Wrapped in <div>. We see there are three 
-    * statements: props.image, props.name and props.bio from the parent compnent. The style will be 
-    * cardStyle. Next <img> tag has an OR statement if true displays an emoji.
+    * statements: props.image, props.name and props.bio from the parent component. The style will be 
+    * cardStyle. Next <img> (or props.image) tag has an OR statement if true displays an emoji.
     * objectFit: 'cover' maintains a fit for a round portrait.
-    * functionality is returned. Next <h2> is displayed with an OR statement. "Alex Doe"
-    * is the second imaginary character. Next <p> is underneith, the short bio description.
+    * Next <h2> (or props.name) is displayed with an OR statement. "Alex Doe"
+    * is the second imaginary character. Next <p> (or props.bio) is underneith, the short bio description.
     * Finally the <button> toggles light or dark mode in the function setIsDarkMode().
     * It uses a ternary operator. If isDarkMode() is true then display 'light mode'
     */
