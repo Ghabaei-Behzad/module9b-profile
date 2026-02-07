@@ -13,7 +13,10 @@ import React, { useState } from 'react';
 
 /* 
 *
-* The properties (props) are declased here in a destructured array.
+* The properties (props) are declared here in a destructured array.
+* In React, functional components receive a single props object as their first
+* argument. Destructuring allows you to "unpack" specific properties from that
+* object directly within the function's parameter list
 * for useState(false) we know they are for [initializing, and a setter].
 * another wat to write this 
 * is: function UserProfile(props) {
