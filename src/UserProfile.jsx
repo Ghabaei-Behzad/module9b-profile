@@ -18,7 +18,7 @@ import React, { useState } from 'react';
 * argument. Destructuring allows you to "unpack" specific properties from that
 * object directly within the function's parameter list
 * for useState(false) we know they are for [initializing, and a setter].
-* another wat to write this 
+* another way to write this 
 * is: function UserProfile(props) {
        const ...
       return (
@@ -81,7 +81,7 @@ import React, { useState } from 'react';
     * Next <h2> (or props.name) is displayed with an OR statement. "Alex Doe"
     * is the second imaginary character. Next <p> (or props.bio) is underneith, the short bio description.
     * Finally the <button> toggles light or dark mode in the function setIsDarkMode().
-    * It uses a ternary operator. If isDarkMode() is true then display 'light mode'
+    * It uses a ternary operator. If isDarkMode() is true, then displays 'light mode'
     */
   return (
     <div style={cardStyle}>
